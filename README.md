@@ -26,9 +26,9 @@ Bem-vindo ao **Kanban Board**, um aplicativo web dinâmico que permite organizar
 
 ## 📸 Capturas de Tela
 
-### Demonstrativo
-![Texto alternativo](src/images/kanban.gif)
+![Gif](src/images/kanban.gif)
 
+![Image](src/images/kanban_image.png)
 
 ## 📂 Estrutura de Arquivos
 
