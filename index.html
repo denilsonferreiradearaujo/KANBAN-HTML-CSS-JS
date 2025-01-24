@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="src/javascript/script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    
+    <title>Kanban</title>
+</head>
+
+<body>
+    <main class="kanban">
+
+        <!-- Coluna 1 -->
+        <div class="kanban-column" data-id="1">
+            <div class="kanban-title">
+                <h2>
+                    Pendente
+                </h2>
+
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+
+                <!-- Exemplo do card usado para as estilizações -->
+
+                <!-- <div class="kanban-card" draggable="true">
+
+                    <div class="badge high">
+                        <span>Alta prioridade</span>
+                    </div>
+
+                    <p class="card-title">
+                        Revisar documento do projeto
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="src/images/avatar-feminino-1.png" alt="Avatar">
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+
+        <!-- Coluna 2 -->
+        <div class="kanban-column" data-id="2">
+            <div class="kanban-title">
+                <h2>
+                    Front-end
+                </h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+            </div>
+        </div>
+
+        <!-- Coluna 3 -->
+        <div class="kanban-column" data-id="3">
+            <div class="kanban-title">
+                <h2>
+                    back-end
+                </h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+            </div>
+        </div>
+
+        <!-- Coluna 4 -->
+        <div class="kanban-column" data-id="4">
+            <div class="kanban-title">
+                <h2>
+                    Em testes
+                </h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+            </div>
+        </div>
+
+        <!-- Coluna 5 -->
+        <div class="kanban-column" data-id="5">
+            <div class="kanban-title">
+                <h2>
+                    Concluido
+                </h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+            </div>
+        </div>
+
+
+    </main>
+
+    <!-- Exemplo do modal usado para estilizações -->
+
+    <!-- <div id="modal-container" style="display: none;">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Adicionar Tarefa</h2>
+                <button id="close-modal">&times;</button>
+            </div>
+            <form id="add-task-form">
+                <label for="task-title">Título:</label>
+                <input type="text" id="task-title" placeholder="Digite o título" required>
+                <label for="task-priority">Prioridade:</label>
+                <select id="task-priority" required>
+                    <option value="high">Alta</option>
+                    <option value="medium">Média</option>
+                    <option value="low">Baixa</option>
+                </select>
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+    </div> -->
+
+
+</body>
+
+</html>
